@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 import random  # randomライブラリを追加
 
-
+app = FastAPI()
 
 @app.get("/")
 async def root():
