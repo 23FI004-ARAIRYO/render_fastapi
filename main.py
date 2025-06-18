@@ -38,9 +38,74 @@ def index():
     html_content = """
     <html>
         <head>
+<<<<<<< HEAD
             <title>りょうのホームページ</title>
+            <style>
+                body {
+                    text-align: center;
+                    padding: 20px;
+                }
+
+                h1 {
+                    font-size: 2.5em;
+                    font-weight: bold;
+                    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+                    margin-bottom: 10px;
+                }
+
+                pre {
+                    font-size: 1.2em;
+                }
+
+                table {
+                    margin: 30px;
+                    border-collapse: collapse;
+                    width: 50%;
+                }
+
+                table, th, td {
+                    border: 10px grove #ff00aa;
+                }
+
+                th, td {
+                    padding: 10px;
+                    background-color: #ffffff;
+                }
+            </style>
+=======
+            <title>りょうのホームページ</title>
+>>>>>>> 768e10fc282ca26f12c7023d4cee0eb986e01167
         </head>
         <body>
+            <h1>ようこそ　りょう　のホームページへ！</h1>
+            <pre>
+            ＿人人人人人人人人人人人人人人人人人人人＿
+            ＞　　　ゆっくりしていってね！！！　　　＜
+            ￣^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^Ｙ^￣
+            </pre>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>内容</th>
+                </tr>
+                <tr>
+                    <td>名前</td>
+                    <td>荒井 涼</td>
+                </tr>
+                <tr>
+                    <td>生年月日</td>
+                    <td>2004年10月4日</td>
+                </tr>
+                <tr>
+                    <td>血液型</td>
+                    <td>O型</td>
+                </tr>
+                <tr>
+                    <td>趣味</td>
+                    <td>ゲーム、アニメ、パチンコ・スロット</td>
+                </tr>
+            </table>
+            <p>このページではおみくじを引けるよ</p>
             <h1>ようこそ　りょう　のホームページへ！</h1>
             <pre>
             ＿人人人人人人人人人人人人人人人＿
