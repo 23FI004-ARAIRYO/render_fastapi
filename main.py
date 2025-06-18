@@ -38,10 +38,12 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>おみくじページ</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>ようこそ！</h1>
+            <p>このページではおみくじを引くことができます。</p>
+            <a href="/omikuji">おみくじを引く</a>
         </body>
     </html>
     """
